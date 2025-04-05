@@ -55,7 +55,7 @@ function App() {
           ref={passwordRef}
         />
         <button className="copy-btn" onClick={copypasswordtoClipboard}>
-          Copy
+          Copy 
         </button>
       </div>
 
@@ -71,7 +71,7 @@ function App() {
             className="range-slider"
             onChange={(e) => setlenth(e.target.value)}
           />
-        </div>
+        </div> 
 
         <div className="checkbox-group">
           <input
